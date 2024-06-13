@@ -1,0 +1,39 @@
+:root {
+  --primary-colour: rgb(45, 23, 12);
+  --secondary-colour: rgb(98, 51, 28);
+  --hover-colour: rgba(98, 51, 28, 0.774);
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.link a {
+  text-decoration: none;
+  color: rgb(99, 49, 24);
+  background-color: #eea019c4;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.link a:hover {
+  color: rgb(163, 114, 68);
+}
+
+.photo-credit,
+.index-title,
+.contact-title {
+  color: var(--primary-colour);
+}
+
+.photo-credit a,
+.paragraphs,
+.contact-text,
+.contact-text a {
+  color: var(--secondary-colour);
+}
+
+.photo-credit a:hover,
+.contact-text a:hover {
+  color: var(--hover-colour);
+}

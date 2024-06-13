@@ -29,11 +29,13 @@ body {
 .photo-credit a,
 .paragraphs,
 .contact-text,
-.contact-text a {
+.contact-text a,
+.index-credit a {
   color: var(--secondary-colour);
 }
 
 .photo-credit a:hover,
-.contact-text a:hover {
+.contact-text a:hover,
+.index-credit a:hover {
   color: var(--hover-colour);
 }
